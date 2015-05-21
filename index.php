@@ -35,6 +35,9 @@
 	 		'comment'=>array('content'=>'this is content')); */
 //	工单列表
 //	$data = $test->tickets()->findAll();
+//			可以增加分页和每页数量限制参数
+//	$page = 2; $perpage = 20;
+//	$data = $test->tickets()->findAll($page,$perpage);
 //	查看指定工单
 //	$data = $test->tickets()->find('1530');
 //	查看多个工单
